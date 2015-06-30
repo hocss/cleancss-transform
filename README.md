@@ -8,9 +8,9 @@ npm i -D cleancss-transform
 
 ```
 import fs from 'fs'
-import cleancss from 'autoprefixer-transform'
+import cleancss from 'cleancss-transform'
 
 fs.createReadStream( 'styles.css' )
-  .pipe( autoprefixer() )
+  .pipe( cleancss() )
   .pipe( fs.createWriteStream( 'main.css' ) )
 ```
