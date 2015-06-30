@@ -1,6 +1,6 @@
 {
   "name": "cleancss-transform",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Cleancss as a transform stream",
   "main": "dist/transform.js",
   "scripts": {
